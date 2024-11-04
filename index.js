@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-// get the main element
+// get the background image of GOT  main element
 const main = document.querySelector('main')
 main.style.backgroundImage = " url('images/got.png')";
 main.style.backgroundRepeat = "no-repeat"; 
 main.style.backgroundSize = "100%"
-
-
-
 
 // call the fetch function 
 function fetchBooks(){
